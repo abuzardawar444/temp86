@@ -25,7 +25,6 @@ export default function ContentModal({ children, media_type, id }) {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const [content, setContent] = useState();
-  const [video, setVideo] = useState();
 
   const fetchData = async () => {
     const { data } = await axios.get(
