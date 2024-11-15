@@ -1,12 +1,10 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+import Box from "@mui/material/Box";
 import Modal from '@mui/material/Modal';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { unavailable, unavailableLandscape } from '../../config/config';
-import "./ContentModal.css"
-import { YouTube } from '@mui/icons-material';
+import "./ContentModal.css";
 import Carousel from "../Carousel/Carousel";
 
 const style = {
