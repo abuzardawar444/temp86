@@ -12,7 +12,7 @@ const Trending = () => {
   const fetchdata = async () => {
     try {
       const { data } = await axios.get(
-        `http://www.omdbapi.com/?s=batman&apikey=${process.env.REACT_APP_OMDB_API_KEY}&page=${page}`
+        `https://www.omdbapi.com/?s=batman&apikey=${process.env.REACT_APP_OMDB_API_KEY}&page=${page}`
       );
       console.log("API Response:", data); // Check the API response
       if (data.Search) {

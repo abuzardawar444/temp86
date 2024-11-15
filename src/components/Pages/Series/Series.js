@@ -17,7 +17,7 @@ const Series = () => {
   const fetchSeries = async () => {
     try {
       const { data } = await axios.get(
-        `http://www.omdbapi.com/?s=series&apikey=${process.env.REACT_APP_OMDB_API_KEY}&page=${page}`
+        `https://www.omdbapi.com/?s=series&apikey=${process.env.REACT_APP_OMDB_API_KEY}&page=${page}`
       );
       console.log(data); // Inspect the API response
       if (data.Search) {
