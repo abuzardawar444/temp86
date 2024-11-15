@@ -1,0 +1,57 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0px;
+  border-radius: 10px;
+  background-color: #07121c;
+  position: relative;
+  font-family: "Montserrat";
+  bottom: 20;
+}
+
+.media:hover {
+  background-color: gainsboro;
+  color: black;
+  border: 2px black solid;
+  box-sizing: border-box;
+}
+
+/*.media:hover .details {
+  font-weight: 600;
+}
+*/
+
+@media (max-width: 550px) {
+  .media {
+    max-width: 47%;
+  }
+}
+
+.poster {
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  padding: 5px 0px;
+}
+
+.title-1 {
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  padding: 5px 0px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 0 2px;
+}

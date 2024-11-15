@@ -1,0 +1,32 @@
+.header {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  /*background-color: #1e374a;*/
+  background-color: #fccb06;
+  font-family: "Lato";
+  text-transform: uppercase;
+  font-size: 4vw;
+  padding-bottom: 7px;
+  width: 100%;
+  color: #5b7c99;
+  z-index: 100;
+  box-shadow: 1px 2px 5px rgb(0, 0, 0);
+  position: fixed;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    font-size: 6vw;
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 620px) {
+  .header {
+    font-size: 6.2vw;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+}
+

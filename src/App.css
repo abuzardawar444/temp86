@@ -1,0 +1,10 @@
+.app {
+  min-height: 100vh;
+  background-color: black;
+  color:rgba(252, 243, 243, 0.742);
+  padding-bottom: 20px;
+}
+
+.buttom {
+  padding-top: 20px;
+}
